@@ -1,0 +1,25 @@
+body {
+  font-size: 100%;
+}
+
+.box {
+  background: #EEE;
+  border: 1px #333 solid;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: #000;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.flex-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
