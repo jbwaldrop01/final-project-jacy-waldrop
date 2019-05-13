@@ -12,25 +12,23 @@ body {
   color: #000;
 } */
 
-.container {
-  margin: 0 auto;
-  padding-left: 2em;
-  padding-right: 2em;
-}
 
 .flex-main-container {
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 2em;
   margin-bottom: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .flex-header-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 2em;
+  margin-bottom: 5em;
 }
 
 .flex-hub-container {
@@ -44,7 +42,8 @@ body {
 
 .left-nav-container {
   width: 250px;
-  border-right: 1px solid #eee;
+  border-right: 3px solid #eee;
+  padding-right: 2em;
 }
 
 .right-content-container {
@@ -52,7 +51,7 @@ body {
 }
 
 .menu-container {
-  width: 30%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -78,56 +77,119 @@ body {
   text-align: center;
 }
 
-.title {
+/* .title {
   background: orange;
   width: 35%;
   padding: 30px;
   margin-bottom: 1.25%;
   border: 1px #000 solid;
   text-align: center;
-}
+} */
 
 .search {
-  padding: 30px; /* using padding to control the height */
-  width: 150px;
   background: #fff;
   margin-bottom: 2em;
-  border: 1px #000 solid;
   text-align: center;
 }
 
+.search input[type=text] {
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 6px;
+  border: 3px solid #eee;
+  border-radius: 15px;
+}
+
 .upcoming {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
   padding: 30px; /* using padding to control the height */
   width: 150px;
-  background: lime;
   margin-bottom: 2em;
-  border: 1px #000 solid;
   text-align: center;
 }
 
 .closest {
+  font-size: 1.1em;
+  font-weight: 700;
+  text-align: center;
   padding: 30px; /* using padding to control the height */
   width: 150px;
-  background: lime;
   margin-bottom: 2em;
-  border: 1px #000 solid;
   text-align: center;
 }
 
 .popular {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
   padding: 30px; /* using padding to control the height */
   width: 150px;
-  background: lime;
   margin-bottom: 2em;
-  border: 1px #000 solid;
   text-align: center;
 }
 
 .featured {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
   padding: 30px; /* using padding to control the height */
   width: 150px;
-  background: lime;
   margin-bottom: 2em;
-  border: 1px #000 solid;
   text-align: center;
 }
+
+/* Extra Large devices (large desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+  /* styles go here */
+}
+
+/*
+  Large devices (desktops, 992px and down)
+*/
+@media only screen and (max-width: 992px) {
+  /* styles go here */
+  .flex-hub-container {
+    flex-wrap: wrap;
+  }
+
+  .hub-card {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+}
+
+/*
+  Medium devices (tablets, 768px and down)
+*/
+@media only screen and (max-width: 768px) {
+  /* styles go here */
+  .flex-hub-container {
+    flex-wrap: wrap;
+  }
+
+  .hub-card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/*
+  Small devices (landscape phone, 576px and down)
+*/
+@media only screen and (max-width: 576px) {
+  /* styles go here */
+
+  /* .container {
+      width: 100%;
+    }
+
+  .hub-card {
+    background: pink;
+    width: 32%;
+    height: 250px;
+    margin-bottom: 1.25%;
+    border: 1px #000 solid;
+    text-align: center;
+  } */
