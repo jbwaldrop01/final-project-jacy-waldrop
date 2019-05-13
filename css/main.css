@@ -1,25 +1,133 @@
 body {
   font-size: 100%;
+  font-family: 'Lato', sans-serif;
 }
 
-.box {
+/* .box {
   background: #EEE;
   border: 1px #333 solid;
   text-align: center;
   padding: 10px;
   border-radius: 5px;
   color: #000;
-}
+} */
 
 .container {
-  width: 1024px;
   margin: 0 auto;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .flex-main-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.flex-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.flex-hub-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.left-nav-container {
+  width: 250px;
+  border-right: 1px solid #eee;
+}
+
+.right-content-container {
+  width: 75%;
+}
+
+.menu-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.hub-card {
+  background: pink;
+  width: 32%;
+  height: 250px;
+  margin-bottom: 1.25%;
+  border: 1px #000 solid;
+  text-align: center;
+}
+
+.logo {
+  background: orange;
+  width: 35%;
+  padding: 30px;
+  margin-bottom: 1.25%;
+  margin-right: 2em;
+  border: 1px #000 solid;
+  text-align: center;
+}
+
+.title {
+  background: orange;
+  width: 35%;
+  padding: 30px;
+  margin-bottom: 1.25%;
+  border: 1px #000 solid;
+  text-align: center;
+}
+
+.search {
+  padding: 30px; /* using padding to control the height */
+  width: 150px;
+  background: #fff;
+  margin-bottom: 2em;
+  border: 1px #000 solid;
+  text-align: center;
+}
+
+.upcoming {
+  padding: 30px; /* using padding to control the height */
+  width: 150px;
+  background: lime;
+  margin-bottom: 2em;
+  border: 1px #000 solid;
+  text-align: center;
+}
+
+.closest {
+  padding: 30px; /* using padding to control the height */
+  width: 150px;
+  background: lime;
+  margin-bottom: 2em;
+  border: 1px #000 solid;
+  text-align: center;
+}
+
+.popular {
+  padding: 30px; /* using padding to control the height */
+  width: 150px;
+  background: lime;
+  margin-bottom: 2em;
+  border: 1px #000 solid;
+  text-align: center;
+}
+
+.featured {
+  padding: 30px; /* using padding to control the height */
+  width: 150px;
+  background: lime;
+  margin-bottom: 2em;
+  border: 1px #000 solid;
+  text-align: center;
 }
