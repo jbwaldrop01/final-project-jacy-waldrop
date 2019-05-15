@@ -7,7 +7,11 @@
     "location": "Hornblower Cruises & Events Pier 15 - 78 South St., New York, NY 10038",
     "time": "9 PM - 2 AM",
     "url": "https://www.eventbrite.com/e/dance-music-boat-party-nyc-yacht-cruise-tickets-60926712437",
-    "cost": 60-100
+    "cost": 60-100,
+    "featured": ,
+    "lat": 40.705662,
+    "lon": -74.004472,
+    "tags": ["", ""]
   },
   {
     "eventTitle": "Bryant Park Dance Party R&B Night",
@@ -17,7 +21,11 @@
     "location": "Bryant Park, Fountain Terrace, 6th Avenue and 41st Street, New York, NY 10018",
     "time": "6 PM - 8:30 PM",
     "url": "https://www.nycgovparks.org/events/2019/05/22/bryant-park-rb-night",
-    "cost": ""
+    "cost": "",
+    "featured": ,
+    "lat": 40.738007,
+    "lon": -73.996353,
+    "tags": ["park", ""]
   },
   {
     "eventTitle": "ESO! MONDAYS",
@@ -27,7 +35,11 @@
     "location": "81 S 6th St., Brooklyn, NY 11211",
     "time": "8:30 PM",
     "url": "https://www.bembe.us/eso-mondays-17/",
-    "cost": ""
+    "cost": "",
+    "featured": ,
+    "lat": 40.711078,
+    "lon": -73.965144,
+    "tags": ["", ""]
   },
   {
     "eventTitle": "TUFF TUESDAYS",
@@ -37,7 +49,11 @@
     "location": "81 S 6th St., Brooklyn, NY 11211",
     "time": "8:30 PM",
     "url": "https://www.bembe.us/event/new-tuesdays/?instance_id=12099",
-    "cost": ""
+    "cost": "",
+    "featured": ,
+    "lat": 40.711078,
+    "lon": -73.965144,
+    "tags": ["", ""]
   },
   {
     "eventTitle": "CALL TO DRUM",
@@ -47,7 +63,11 @@
     "location": "81 S 6th St., Brooklyn, NY 11211",
     "time": "8:30 PM",
     "url": "https://www.bembe.us/call-drum-fridays-19/",
-    "cost": ""
+    "cost": "",
+    "featured": ,
+    "lat": 40.711078,
+    "lon": -73.965144,
+    "tags": ["", ""]
   },
   {
     "eventTitle": "Western Wednesdays",
@@ -57,7 +77,11 @@
     "location": "211 Knickerbocker Ave, Brooklyn, NY 11237",
     "time": "9 PM",
     "url": "https://www.instagram.com/p/BwFQRMFlGPu/?igshid=k9zx1ma7vrmz",
-    "cost": ""
+    "cost": "",
+    "featured": ,
+    "lat": 40.703515,
+    "lon": -73.926153,
+    "tags": ["western", ""]
   },
   {
     "eventTitle": "Daybreaker - BLOOM & BASS BOAT PARTY",
@@ -67,7 +91,11 @@
     "location": "The Hornblower Cruises + Events - Pier 40, 353 West Street, New York, NY 10014",
     "time": "6 AM - 9 AM",
     "url": "https://www.daybreaker.com/event/bloom-bass-boat-party/",
-    "cost": 35
+    "cost": 35,
+    "featured": ,
+    "lat": 40.726806,
+    "lon": -74.010772,
+    "tags": ["", ""]
   },
   {
     "eventTitle": "La MaMa Moves! Dance Festival 2019",
@@ -77,7 +105,11 @@
     "location": "66 E 4th St., New York, NY 10003",
     "time": "6 AM - 9 AM",
     "url": "https://www.timeout.com/newyork/dance/la-mama-moves-dance-festival-2019#tab_panel_2",
-    "cost": 25
+    "cost": 25,
+    "featured": ,
+    "lat": 40.726275,
+    "lon": -73.990612,
+    "tags": ["festival", ""]
   },
   {
     "eventTitle": "",
@@ -87,7 +119,11 @@
     "location": "405 W 55th St., New York, NY 10019",
     "time": "",
     "url": "http://alvinailey.org/",
-    "cost": ""
+    "cost": "",
+    "featured": ,
+    "lat": 40.766967,
+    "lon": -73.987046,
+    "tags": ["studio", ""]
   },
   {
     "eventTitle": "",
@@ -97,7 +133,11 @@
     "location": "500 8th Ave., New York, NY 10018",
     "time": "",
     "url": "http://hhdancejunkies.com/",
-    "cost": ""
+    "cost": "",
+    "featured": ,
+    "lat": 40.752996,
+    "lon": -73.992407,
+    "tags": ["hip hop", "studio"]
   },
   {
     "eventTitle": "House of Yes at the Dance Parade",
@@ -107,7 +147,11 @@
     "location": "Broadway and E. 21st Street, New York, NY 10010",
     "time": "12 PM - 6 PM",
     "url": "https://www.eventbrite.com/e/house-of-yes-at-the-dance-parade-tickets-60020953287",
-    "cost": ""
+    "cost": "",
+    "featured": ,
+    "lat": 40.739865,
+    "lon": -73.989582,
+    "tags": ["", ""]
   },
   {
     "eventTitle": "Dirty Thursday: Get Your Freak On",
@@ -117,7 +161,11 @@
     "location": "2 Wyckoff Ave., Brooklyn, NY 11237",
     "time": "10 PM - 4 AM",
     "url": "https://www.eventbrite.com/e/dirty-thursday-get-your-freak-on-tickets-60507712196",
-    "cost": ""
+    "cost": "",
+    "featured": ,
+    "lat": 40.706819,
+    "lon": -73.923581,
+    "tags": ["", ""],
   },
   {
     "eventTitle": "The Roller Wave: Roller Disco",
@@ -127,7 +175,11 @@
     "location": "2 Wyckoff Ave., Brooklyn, NY 11237",
     "time": "6 PM - 10 PM",
     "url": "https://www.eventbrite.com/e/the-roller-wave-roller-disco-tickets-55512566581",
-    "cost": 15-25
+    "cost": 15-25,
+    "featured": true,
+    "lat": 40.706819,
+    "lon": -73.923581,
+    "tags": ["disco", ""]
   },
   {
     "eventTitle": "Sunday Night Fever: Memorial Day Weekend",
@@ -137,7 +189,11 @@
     "location": "2 Wyckoff Ave., Brooklyn, NY 11237",
     "time": "9 PM - 3 AM",
     "url": "https://www.eventbrite.com/e/sunday-night-fever-memorial-day-weekend-tickets-60369900999",
-    "cost": ""
+    "cost": "",
+    "featured": true,
+    "lat": 40.706819,
+    "lon": -73.923581,
+    "tags": ["disco", ""]
   },
   {
     "eventTitle": "",
@@ -147,33 +203,45 @@
     "location": "440 Lafayette St., New York, NY 10003",
     "time": "",
     "url": "http://divadancecompany.com/",
-    "cost": ""
+    "cost": "",
+    "featured": ,
+    "lat": 40.729500,
+    "lon": -73.991994,
+    "tags": ["hip hop", "studio"]
   },
   {
     "eventTitle": "",
     "studioName": "92nd Street Y",
     "barName": "",
-    "type": "Salsa",
-    "location": "1395 Lexington Ave., New York, NY 10128 ",
+    "type": "salsa",
+    "location": "1395 Lexington Ave., New York, NY 10128",
     "time": "",
     "url": "http://92y.org/",
-    "cost": ""
+    "cost": "",
+    "featured": ,
+    "lat": 40.783037,
+    "lon": -73.952692,
+    "tags": ["salsa", "studio"]
   },
   {
     "eventTitle": "",
     "studioName": "BAILA Society",
     "barName": "",
-    "type": "Salsa",
+    "type": "salsa",
     "location": "126 E 13th St, New York, NY 10003",
     "time": "",
     "url": "http://www.bailasociety.com/",
-    "cost": ""
+    "cost": "",
+    "featured": ,
+    "lat": 40.732699,
+    "lon": -73.988732,
+    "tags": ["salsa", "studio"]
   },
   {
     "eventTitle": "Nieves Latin Dance Studio",
     "studioName": "BAILA Society",
     "barName": "",
-    "type": "Salsa",
+    "type": "salsa",
     "location": "670 Grand St., Brooklyn, NY 11211",
     "time": "",
     "url": "http://www.nievesdancestudio.com/",
@@ -181,6 +249,6 @@
     "featured": true,
     "lat": 40.711592,
     "lon": -73.945846,
-    "tags": ["salsa", ""]
+    "tags": ["salsa", "studio"]
   },
 ]
