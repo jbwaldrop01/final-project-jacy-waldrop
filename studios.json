@@ -178,6 +178,9 @@
     "time": "",
     "url": "http://www.nievesdancestudio.com/",
     "cost": "",
-    "featured": true
+    "featured": true,
+    "lat": 40.711592,
+    "lon": -73.945846,
+    "tags": ["salsa", ""]
   },
 ]
