@@ -411,6 +411,16 @@ img {
   text-align: left;
   padding-left: 10%;
   padding-right: 10%;
+  margin-bottom: 15%;
+}
+
+.upcoming a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  text-align: left;
 }
 
 .near-me {
@@ -420,6 +430,16 @@ img {
   text-align: left;
   padding-left: 10%;
   padding-right: 10%;
+  margin-bottom: 15%;
+}
+
+.near-me a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  text-align: left;
 }
 
 .type {
@@ -429,6 +449,16 @@ img {
   text-align: left;
   padding-left: 10%;
   padding-right: 10%;
+  margin-bottom: 15%;
+}
+
+.type a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  text-align: left;
 }
 
 .featured {
@@ -438,6 +468,21 @@ img {
   text-align: left;
   padding-left: 10%;
   padding-right: 10%;
+  margin-bottom: 15%;
+}
+
+.featured a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  text-align: left;
+}
+/* should i simplify and have them all in a nav container  */
+nav a:hover {
+  color: #000;
+  border-bottom:solid #C3FF68 3px;
 }
 
 #mobile-menu-button {
