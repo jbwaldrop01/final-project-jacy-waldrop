@@ -676,8 +676,8 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 /* Shutter Vertical Blue*/
 
 
-/* Extra Large devices (large desktops, 1200px and down) */
-@media only screen and (max-width: 1203px) {
+/* Extra Large devices (large desktops, 1209px and down) */
+@media only screen and (max-width: 1209px) {
   /* styles go here */
 
   .flex-hub-container {
@@ -708,34 +708,10 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 /*
   Large devices (desktops, 992px and down)
 */
-@media only screen and (max-width: 1032px) {
+@media only screen and (max-width: 992px) {
   /* styles go here */
   .flex-hub-container {
     flex-wrap: wrap;
-  }
-
-  .flex-hub-container {
-    flex-wrap: wrap;
-  }
-
-  .v1.hub-card {
-    width: 50%;
-    margin-bottom: 1.5em;
-  }
-
-  .v2.hub-card {
-    width: 50%;
-    margin-bottom: 1.5em;
-  }
-
-  .v3.hub-card {
-    width: 50%;
-    margin-bottom: 1.5em;
-  }
-
-  .v4.hub-card {
-    width: 50%;
-    margin-bottom: 1.5em;
   }
 
   .flex-header-container {
@@ -745,15 +721,10 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     justify-content: space-between;
     margin-bottom: 0px; }
 
-  .flex-hub-container {
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
   .right-content-container {
-    width: 100%;
+    width: 75%;
     display: block;
-    padding-left: 0px;
+    padding-left: 30%;
   }
 
   #mobile-menu-button {
@@ -763,12 +734,37 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
 
   .left-nav-container {
-    width: 100%;
+    background-color: #fff;
+    width: 25%;
     display: block;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+  }
+
+  .logo {
+    width: 10%;
+  }
+
+  .v1.hub-card {
+    width: 48%;
+    margin-bottom: 1.5em;
+  }
+
+  .v2.hub-card {
+    width: 48%;
+    margin-bottom: 1.5em;
+  }
+
+  .v3.hub-card {
+    width: 48%;
+    margin-bottom: 1.5em;
+  }
+
+  .v4.hub-card {
+    width: 48%;
+    margin-bottom: 1.5em;
   }
 }
 
@@ -777,25 +773,7 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 */
 @media only screen and (max-width: 768px) {
   /* styles go here */
-   .flex-main-container {
-    display: flex;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
 
-  .flex-header-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 0px; }
-
-  .flex-hub-container {
-    width: 100%;
-    display: flex;
-  }
 
   .right-content-container {
     width: 100%;
@@ -840,34 +818,32 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     top: 0;
     left: 0;
     right: 0;
-}
+  }
 
   .menu-container {
-    width: 100%;
-    display: flex;
+    display: none;
   }
 
   .logo {
     width: 10%;
   }
 
-
 /* transition tags that need to apply for slide menu - need to update names once i figure out nav container being fixed to top on mobile*/
-/* .nav-container {
+ .left-nav-container {
  display: block;
  width: 100%;
  overflow: hidden;
 }
 
-.nav-container.showing {
+.left-nav-container.showing {
  transition: all 500ms ease-in-out;
  max-height: 500px;
 }
 
-.nav-container.hiding {
+.left-nav-container.hiding {
  transition: all 500ms ease-in-out;
  max-height: 0px;
-} */
+}
 }
 
 /*
@@ -875,16 +851,3 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 */
 @media only screen and (max-width: 576px) {
   /* styles go here */
-
-  /* .container {
-      width: 100%;
-    }
-
-  .hub-card {
-    background: pink;
-    width: 32%;
-    height: 250px;
-    margin-bottom: 1.25%;
-    border: 1px #000 solid;
-    text-align: center;
-  } */
