@@ -490,6 +490,11 @@ img {
   display: none;
 }
 
+#search-button {
+  color: black;
+  display: none;
+}
+
 /* Shutter Vertical Blue */
 .hvr-bounce-to-bottom-blue {
 display: inline-block;
