@@ -727,12 +727,6 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     padding-left: 30%;
   }
 
-  #mobile-menu-button {
-    color: black;
-    display: block;
-    text-decoration: none;
-  }
-
   .left-nav-container {
     background-color: #fff;
     width: 25%;
@@ -744,7 +738,7 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
 
   .logo {
-    width: 10%;
+    width: 30%;
   }
 
   .v1.hub-card {
@@ -769,19 +763,35 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
 /*
-  Medium devices (tablets, 768px and down)
+  Medium devices (tablets, 873px and down)
 */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 873px) {
   /* styles go here */
-
-
-  .right-content-container {
-    width: 100%;
-    padding-left: 0px;
-  }
-
   .flex-hub-container {
     flex-wrap: wrap;
+  }
+
+  .flex-header-container {
+    width: 100%;
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px; }
+
+  .right-content-container {
+    width: 75%;
+    display: block;
+    padding-left: 30%;
+  }
+
+  .left-nav-container {
+    background-color: #fff;
+    width: 30%;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 
   .v1.hub-card {
@@ -804,46 +814,9 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     margin-bottom: 1.5em;
   }
 
-  #mobile-menu-button {
-    color: #CE0C7E;
-    display: block;
-    text-decoration: none;
-  }
-
-  .left-nav-container {
-    width: 100%;
-    display: block;
-    position: fixed;
-    height:10%;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .menu-container {
-    display: none;
-  }
-
   .logo {
-    width: 10%;
+    width: 25%;
   }
-
-/* transition tags that need to apply for slide menu - need to update names once i figure out nav container being fixed to top on mobile*/
- .left-nav-container {
- display: block;
- width: 100%;
- overflow: hidden;
-}
-
-.left-nav-container.showing {
- transition: all 500ms ease-in-out;
- max-height: 500px;
-}
-
-.left-nav-container.hiding {
- transition: all 500ms ease-in-out;
- max-height: 0px;
-}
 }
 
 /*
@@ -851,3 +824,31 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 */
 @media only screen and (max-width: 576px) {
   /* styles go here */
+
+  #mobile-menu-button {
+    color: #CE0C7E;
+    display: block;
+    text-decoration: none;
+  }
+
+  .menu-container {
+    display: none;
+  }
+
+  /* transition tags that need to apply for slide menu - need to update names once i figure out nav container being fixed to top on mobile*/
+   /* .left-nav-container {
+   display: block;
+   width: 100%;
+   overflow: hidden;
+  }
+
+  .left-nav-container.showing {
+   transition: all 500ms ease-in-out;
+   max-height: 500px;
+  }
+
+  .left-nav-container.hiding {
+   transition: all 500ms ease-in-out;
+   max-height: 0px;
+  } */
+}
