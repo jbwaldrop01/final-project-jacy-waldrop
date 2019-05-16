@@ -837,19 +837,19 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
 
   /* transition tags that need to apply for slide menu - need to update names once i figure out nav container being fixed to top on mobile*/
-   /* .left-nav-container {
+   .nav-container {
    display: block;
    width: 100%;
    overflow: hidden;
   }
 
-  .left-nav-container.showing {
+  .nav-container.showing {
    transition: all 500ms ease-in-out;
    max-height: 500px;
   }
 
-  .left-nav-container.hiding {
+  .nav-container.hiding {
    transition: all 500ms ease-in-out;
    max-height: 0px;
-  } */
+  }
 }
