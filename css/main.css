@@ -312,7 +312,6 @@ img {
 }
 
 .v1.hub-card  {
-  background-color: #fff;
   position: relative;
   width: 31.5%;
   height: 430px;
@@ -321,7 +320,6 @@ img {
 }
 
 .v2.hub-card {
-  background-color: #fff;
   position: relative;
   width: 31.5%;
   height: 430px;
@@ -330,7 +328,6 @@ img {
 }
 
 .v3.hub-card {
-  background-color: #fff;
   position: relative;
   width: 31.5%;
   height: 430px;
@@ -339,7 +336,6 @@ img {
 }
 
 .v4.hub-card {
-  background-color: #fff;
   position: relative;
   width: 31.5%;
   height: 430px;
@@ -396,9 +392,17 @@ img {
   font-family: Source Sans Pro;
   font-size: 1.1rem;
   font-weight: 400;
+  text-transform: none;
   padding: 6px;
   border: 2px solid #eee;
   float: left;
+}
+
+.search ::placeholder {
+  font-family: Source Sans Pro;
+  font-size: .9rem;
+  font-weight: 400;
+  padding-left: 2%;
 }
 
 .upcoming {
@@ -479,18 +483,8 @@ img {
   width: 100%;
   text-align: left;
 }
-/* should i simplify and have them all in a nav container  */
-/* nav a:hover {
-  color: #000;
-  border-bottom:solid #C3FF68 3px;
-} */
 
 #mobile-menu-button {
-  color: black;
-  display: none;
-}
-
-#search-button {
   color: black;
   display: none;
 }
@@ -683,21 +677,30 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 
 
 /* Extra Large devices (large desktops, 1200px and down) */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1203px) {
   /* styles go here */
-}
 
-/*
-  Large devices (desktops, 992px and down)
-*/
-@media only screen and (max-width: 1193px) {
-  /* styles go here */
   .flex-hub-container {
     flex-wrap: wrap;
   }
 
-  .hub-card {
-    width: 40%;
+  .v1.hub-card {
+    width: 50%;
+    margin-bottom: 1.5em;
+  }
+
+  .v2.hub-card {
+    width: 50%;
+    margin-bottom: 1.5em;
+  }
+
+  .v3.hub-card {
+    width: 50%;
+    margin-bottom: 1.5em;
+  }
+
+  .v4.hub-card {
+    width: 50%;
     margin-bottom: 1.5em;
   }
 }
@@ -711,8 +714,27 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     flex-wrap: wrap;
   }
 
-  .hub-card {
-    width: 40%;
+  .flex-hub-container {
+    flex-wrap: wrap;
+  }
+
+  .v1.hub-card {
+    width: 50%;
+    margin-bottom: 1.5em;
+  }
+
+  .v2.hub-card {
+    width: 50%;
+    margin-bottom: 1.5em;
+  }
+
+  .v3.hub-card {
+    width: 50%;
+    margin-bottom: 1.5em;
+  }
+
+  .v4.hub-card {
+    width: 50%;
     margin-bottom: 1.5em;
   }
 
@@ -747,7 +769,7 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     top: 0;
     left: 0;
     right: 0;
-}
+  }
 }
 
 /*
@@ -780,9 +802,28 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     padding-left: 0px;
   }
 
-  .hub-card {
+  .flex-hub-container {
+    flex-wrap: wrap;
+  }
+
+  .v1.hub-card {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 1.5em;
+  }
+
+  .v2.hub-card {
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+
+  .v3.hub-card {
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+
+  .v4.hub-card {
+    width: 100%;
+    margin-bottom: 1.5em;
   }
 
   #mobile-menu-button {
@@ -795,6 +836,7 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     width: 100%;
     display: block;
     position: fixed;
+    height:10%;
     top: 0;
     left: 0;
     right: 0;
@@ -806,7 +848,7 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
 
   .logo {
-    width: 25%;
+    width: 10%;
   }
 
 
