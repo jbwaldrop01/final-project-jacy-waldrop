@@ -370,15 +370,6 @@ img {
   margin-right: 1em;
 }
 
-/* .title {
-  background: orange;
-  width: 35%;
-  padding: 30px;
-  margin-bottom: 1.25%;
-  border: 1px #000 solid;
-  text-align: center;
-} */
-
 .search {
   background: #fff;
   margin-bottom: 0px;
@@ -404,6 +395,11 @@ img {
   font-weight: 400;
   padding-left: 2%;
 }
+
+/* targeted color but then button broke ?*
+/* #magnify {
+  color: #CE0C7E;
+} */
 
 .upcoming {
   font-size: 1rem;
@@ -729,16 +725,8 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 
   .left-nav-container {
     background-color: #fff;
-    width: 25%;
+    width: 20%;
     display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .logo {
-    width: 30%;
   }
 
   .v1.hub-card {
@@ -779,19 +767,16 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     margin-bottom: 0px; }
 
   .right-content-container {
-    width: 75%;
+    width: 80%;
     display: block;
     padding-left: 30%;
   }
 
   .left-nav-container {
     background-color: #fff;
-    width: 30%;
+    width: 20%;
     display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    border-right: 2px solid #eee;
   }
 
   .v1.hub-card {
@@ -814,8 +799,19 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     margin-bottom: 1.5em;
   }
 
+  .menu-container {
+    display: none;
+  }
+
+  #mobile-menu-button {
+    color: #CE0C7E;
+    display: block;
+    text-decoration: none;
+    padding-left: 10%;
+  }
+
   .logo {
-    width: 25%;
+    width: 50%;
   }
 }
 
@@ -829,10 +825,15 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     color: #CE0C7E;
     display: block;
     text-decoration: none;
+    padding-left: 10%;
   }
 
   .menu-container {
     display: none;
+  }
+
+  .logo {
+    width: 50%;
   }
 
   /* transition tags that need to apply for slide menu - need to update names once i figure out nav container being fixed to top on mobile*/
