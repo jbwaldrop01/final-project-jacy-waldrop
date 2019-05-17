@@ -7,8 +7,8 @@
     "location": "Hornblower Cruises & Events Pier 15 - 78 South St., New York, NY 10038",
     "time": "9 PM - 2 AM",
     "url": "https://www.eventbrite.com/e/dance-music-boat-party-nyc-yacht-cruise-tickets-60926712437",
-    "cost": 60-100,
-    "featured": ,
+    "cost": "60-100",
+    "featured": false,
     "lat": 40.705662,
     "lon": -74.004472,
     "tags": ["", ""]
@@ -22,7 +22,7 @@
     "time": "6 PM - 8:30 PM",
     "url": "https://www.nycgovparks.org/events/2019/05/22/bryant-park-rb-night",
     "cost": "",
-    "featured": ,
+    "featured": false,
     "lat": 40.738007,
     "lon": -73.996353,
     "tags": ["park", ""]
@@ -36,7 +36,7 @@
     "time": "8:30 PM",
     "url": "https://www.bembe.us/eso-mondays-17/",
     "cost": "",
-    "featured": ,
+    "featured": false,
     "lat": 40.711078,
     "lon": -73.965144,
     "tags": ["", ""]
@@ -50,7 +50,7 @@
     "time": "8:30 PM",
     "url": "https://www.bembe.us/event/new-tuesdays/?instance_id=12099",
     "cost": "",
-    "featured": ,
+    "featured": false,
     "lat": 40.711078,
     "lon": -73.965144,
     "tags": ["", ""]
@@ -64,7 +64,7 @@
     "time": "8:30 PM",
     "url": "https://www.bembe.us/call-drum-fridays-19/",
     "cost": "",
-    "featured": ,
+    "featured": "" ,
     "lat": 40.711078,
     "lon": -73.965144,
     "tags": ["", ""]
@@ -78,7 +78,7 @@
     "time": "9 PM",
     "url": "https://www.instagram.com/p/BwFQRMFlGPu/?igshid=k9zx1ma7vrmz",
     "cost": "",
-    "featured": ,
+    "featured": false,
     "lat": 40.703515,
     "lon": -73.926153,
     "tags": ["western", ""]
@@ -91,8 +91,8 @@
     "location": "The Hornblower Cruises + Events - Pier 40, 353 West Street, New York, NY 10014",
     "time": "6 AM - 9 AM",
     "url": "https://www.daybreaker.com/event/bloom-bass-boat-party/",
-    "cost": 35,
-    "featured": ,
+    "cost": "35",
+    "featured": false,
     "lat": 40.726806,
     "lon": -74.010772,
     "tags": ["", ""]
@@ -105,8 +105,8 @@
     "location": "66 E 4th St., New York, NY 10003",
     "time": "6 AM - 9 AM",
     "url": "https://www.timeout.com/newyork/dance/la-mama-moves-dance-festival-2019#tab_panel_2",
-    "cost": 25,
-    "featured": ,
+    "cost": "25",
+    "featured": false,
     "lat": 40.726275,
     "lon": -73.990612,
     "tags": ["festival", ""]
@@ -120,7 +120,7 @@
     "time": "",
     "url": "http://alvinailey.org/",
     "cost": "",
-    "featured": ,
+    "featured": false,
     "lat": 40.766967,
     "lon": -73.987046,
     "tags": ["studio", ""]
@@ -134,7 +134,7 @@
     "time": "",
     "url": "http://hhdancejunkies.com/",
     "cost": "",
-    "featured": ,
+    "featured": false,
     "lat": 40.752996,
     "lon": -73.992407,
     "tags": ["hip hop", "studio"]
@@ -148,7 +148,7 @@
     "time": "12 PM - 6 PM",
     "url": "https://www.eventbrite.com/e/house-of-yes-at-the-dance-parade-tickets-60020953287",
     "cost": "",
-    "featured": ,
+    "featured": false,
     "lat": 40.739865,
     "lon": -73.989582,
     "tags": ["", ""]
@@ -162,10 +162,10 @@
     "time": "10 PM - 4 AM",
     "url": "https://www.eventbrite.com/e/dirty-thursday-get-your-freak-on-tickets-60507712196",
     "cost": "",
-    "featured": ,
+    "featured": false,
     "lat": 40.706819,
     "lon": -73.923581,
-    "tags": ["", ""],
+    "tags": ["", ""]
   },
   {
     "eventTitle": "The Roller Wave: Roller Disco",
@@ -175,7 +175,7 @@
     "location": "2 Wyckoff Ave., Brooklyn, NY 11237",
     "time": "6 PM - 10 PM",
     "url": "https://www.eventbrite.com/e/the-roller-wave-roller-disco-tickets-55512566581",
-    "cost": 15-25,
+    "cost": "15-25",
     "featured": true,
     "lat": 40.706819,
     "lon": -73.923581,
@@ -204,7 +204,7 @@
     "time": "",
     "url": "http://divadancecompany.com/",
     "cost": "",
-    "featured": ,
+    "featured": false,
     "lat": 40.729500,
     "lon": -73.991994,
     "tags": ["hip hop", "studio"]
@@ -218,7 +218,7 @@
     "time": "",
     "url": "http://92y.org/",
     "cost": "",
-    "featured": ,
+    "featured": false,
     "lat": 40.783037,
     "lon": -73.952692,
     "tags": ["salsa", "studio"]
@@ -232,7 +232,7 @@
     "time": "",
     "url": "http://www.bailasociety.com/",
     "cost": "",
-    "featured": ,
+    "featured": false ,
     "lat": 40.732699,
     "lon": -73.988732,
     "tags": ["salsa", "studio"]
@@ -250,5 +250,5 @@
     "lat": 40.711592,
     "lon": -73.945846,
     "tags": ["salsa", "studio"]
-  },
+  }
 ]
