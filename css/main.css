@@ -370,59 +370,6 @@ img {
   margin-right: 1em;
 }
 
-.search {
-  background: #fff;
-  margin-bottom: 0px;
-  text-align: center;
-  margin-top: 6%;
-}
-
-.search input[type=text] {
-  color: #F6A300;
-  width: 75%;
-  font-family: Source Sans Pro;
-  font-size: 1rem;
-  font-weight: 400;
-  letter-spacing: 1.5px;
-  text-transform: capitalize;
-  padding: 6px;
-  border: 2px solid #eee;
-  float: left;
-}
-
-.search ::placeholder {
-  font-family: Source Sans Pro;
-  font-size: .9rem;
-  letter-spacing: 1.5px;
-  font-weight: 400;
-  padding-left: 2%;
-}
-
-/* targeted color but then button broke ?*
-/* #magnify {
-  color: #CE0C7E;
-} */
-
-/* .upcoming {
-  font-size: 1rem;
-  font-weight: 600;
-  width: 100%;
-  letter-spacing: 1.5px;
-  text-align: left;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 15%;
-}
-
-.upcoming a {
-  color: #000;
-  text-decoration: none;
-}
-
-.upcoming a:hover {
-  color: #CE0C7E;
-} */
-
 .featured {
   font-size: 1rem;
   font-weight: 700;
@@ -444,27 +391,7 @@ img {
 }
 
 .featured a:active {
-  background-color: #0065B6;
-}
-
-.type {
-  font-size: 1rem;
-  font-weight: 700;
-  width: 100%;
-  letter-spacing: 1.5px;
-  text-align: left;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 15%;
-}
-
-.type a {
-  color: #000;
-  text-decoration: none;
-}
-
-.type a:hover {
-  color: #F6A300;
+  color: #0065B6;
 }
 
 .city {
@@ -484,6 +411,10 @@ img {
 }
 
 .city a:hover {
+  color: #CE0C7E;
+}
+
+.city a:active {
   color: #CE0C7E;
 }
 
@@ -561,10 +492,79 @@ img {
   transform: rotate(45deg);
 }
 
+.type {
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+  letter-spacing: 1.5px;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 15%;
+}
+
+.type a {
+  color: #000;
+  text-decoration: none;
+}
+
+.type a:hover {
+  color: #F6A300;
+}
+
+.type a:active {
+  color: #F6A300;
+}
+
+.search {
+  background: #fff;
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 6%;
+}
+
+.search input[type=text] {
+  color: #F6A300;
+  width: 70%;
+  font-family: Source Sans Pro;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+  padding: 6px;
+  border: 2px solid #eee;
+  float: left;
+}
+
+.search ::placeholder {
+  font-family: Source Sans Pro;
+  font-size: .9rem;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  padding-left: 2%;
+}
+
 #mobile-menu-button {
   color: black;
   display: none;
 }
+
+button {
+  background-color: #fff;
+  border: none;
+  margin-bottom: 0px;
+  padding: 6%;
+  display: block;
+}
+
+/* button:hover {
+  background-color: #F6A300;
+} */
+
+/* targeted color but then button broke ?*
+/* #magnify {
+  color: #CE0C7E;
+} */
 
 /* Shutter Vertical */
 .hvr-bounce-to-bottom-blue {
