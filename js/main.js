@@ -12,12 +12,16 @@ $(function () {
     console.log(error)
   })
 
+  displayEvents()
+
   // loop through studios list and generate card for
   // each studio and display on the screen
-  studios.forEach(function (studio) {
-    let cardHtml = generateCard(studio)
-    $('.flex-hub-container').append(cardHtml)
-  })
+  function displayEvents () {
+    studios.forEach(function (studio) {
+      let cardHtml = generateCard(studio)
+      $('.flex-hub-container').append(cardHtml)
+    })
+  }
 
   // This function is responsible for
   // generating the card html for each event
