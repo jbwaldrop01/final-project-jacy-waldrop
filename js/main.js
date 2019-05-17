@@ -46,6 +46,16 @@ $(function () {
   // This function is responsible for
   // generating the card html for each event
   function generateCard (event, version) {
+    let name
+
+    // if a studio name exists then use that name
+    // else use the event title
+    if (event.studioName !== '') {
+      name = event.studioName
+    } else {
+      name = event.eventTitle
+    }
+
     return (
       `<div class="hub-card v${version}">
         <div class="hvr-bounce-to-bottom-pink">
@@ -55,7 +65,7 @@ $(function () {
 
             <div class="ontop">
               <div class="day">
-                <h1>Thursday</h1>
+                <h1>${event.dayOfWeek}</h1>
               </div>
 
               <div class="date">
@@ -63,11 +73,11 @@ $(function () {
               </div>
 
               <div class="location">
-                <h4>New York, NY</h4>
+                <h4>${event.city}</h4>
               </div>
 
               <div class="title">
-                <h2>${event.eventTitle}</h2>
+                <h2>${name}</h2>
               </div>
             </div>
           </a>
