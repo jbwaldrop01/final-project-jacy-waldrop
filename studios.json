@@ -9,7 +9,7 @@
     "dayOfWeek": "Thursday",
     "time": "9 PM - 2 AM",
     "url": "https://www.eventbrite.com/e/dance-music-boat-party-nyc-yacht-cruise-tickets-60926712437",
-    "cost": 60-100,
+    "cost": "60-100",
     "featured": true,
     "lat": 40.705662,
     "lon": -74.004472,
@@ -173,7 +173,7 @@
     "featured": false,
     "lat": 40.706819,
     "lon": -73.923581,
-    "tags": ["", ""],
+    "tags": ["", ""]
   },
   {
     "eventTitle": "The Roller Wave: Roller Disco",
@@ -185,7 +185,7 @@
     "dayOfWeek": "Friday",
     "time": "6 PM - 10 PM",
     "url": "https://www.eventbrite.com/e/the-roller-wave-roller-disco-tickets-55512566581",
-    "cost": 15-25,
+    "cost": "15-25",
     "featured": true,
     "lat": 40.706819,
     "lon": -73.923581,
@@ -208,7 +208,7 @@
     "tags": ["disco", ""]
   },
   {
-    "eventTitle": "",
+    "eventTitle": "Hello",
     "studioName": "DivaDance",
     "barName": "",
     "type": "Hip Hop",
@@ -270,5 +270,5 @@
     "lat": 40.711592,
     "lon": -73.945846,
     "tags": ["salsa", "studio"]
-  },
+  }
 ]
