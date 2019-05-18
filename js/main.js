@@ -1,6 +1,7 @@
 $(function () {
-  let studios
+  let allStudios
   let versions = [1, 2, 3]
+  let links = $('.menu-container a');
 
   $.ajax({
     url: '../studios.json',
@@ -8,20 +9,64 @@ $(function () {
     async: false
   }).done(function (data) {
     console.log('studios', data)
-    studios = data
+    allStudios = data
   }).fail(function (a, b, error) {
     console.log(error)
   })
 
-  displayEvents()
+  $("#hideCity").hide();
+  $("#hideType").hide();
+
+  // Add click event to each link
+  // using special jquery object $(this)
+  // to reference each element that was matched
+
+  links.on('click', function(){
+
+    // Remove the active class from all links
+    links.removeClass('active');
+
+    // Add the active class to the link that was clicked
+    // which is refererenced by $(this)
+    $(this).addClass('active');
+  });
+
+  $("#featured").click(handleFeature);
+
+  function handleFeature () {
+    console.log("showing featured")
+
+    // iterate through studios
+    // only select list of studios where featured is true
+
+    let featuredStudios = allStudios.filter(function(studio) {
+      return studio.featured === true
+    })
+
+    console.log(featuredStudios)
+    displayEvents(featuredStudios)
+
+  }
+
+  // displaying events on screen
+  displayEvents(allStudios)
+
+  function reset() {
+    display(allStudios)
+  }
 
   // loop through studios list and generate card for
   // each studio and display on the screen
-  function displayEvents () {
+  function displayEvents (selectedStudios) {
     let version
     let versionIndex = 0
 
-    studios.forEach(function (studio) {
+    console.log(selectedStudios)
+
+    // clear out events in list
+    $('.flex-hub-container').html("")
+
+    selectedStudios.forEach(function (studio) {
       if (studio.studioName !== '') {
         version = 4
       } else {
@@ -39,6 +84,8 @@ $(function () {
       console.log('version', version)
 
       let cardHtml = generateCard(studio, version)
+
+
       $('.flex-hub-container').append(cardHtml)
     })
   }
@@ -58,10 +105,10 @@ $(function () {
 
     return (
       `<div class="hub-card v${version}">
-        <div class="hvr-bounce-to-bottom-pink">
+        <div class="hvr-bounce-to-bottom-${version}">
           <img src="images/pattern_${version}.png">
 
-          <a href=${event.url}>
+          <a target="_blank" href=${event.url}>
 
             <div class="ontop">
               <div class="day">
@@ -69,7 +116,7 @@ $(function () {
               </div>
 
               <div class="date">
-                <h3>May 30 | ${event.time}</h3>
+                <h3>${event.dateTime}</h3>
               </div>
 
               <div class="location">
@@ -84,4 +131,33 @@ $(function () {
         </div>
       </div>`)
   }
+
+  // Use jQuery to hide all of the
+  // answers when the application first
+  // loads
+
+  $("#cityActive").click(showHideCity);
+  $("#typeActive").click(showHideType);
+
+  function showHideCity() {
+    // print out message to ensure
+    // function "does something" when
+    // #answer1 element is clicked
+    console.log('calling showHideCity');
+
+    // show the #answer1 element using .show()
+    // $("#answer1").show();
+
+    // slide toggle #answer1 using .slideToggle()
+    // this will open and close the #answer1 element
+    // using a slide animation
+    $("#hideCity").slideToggle();
+  }
+
+  function showHideType() {
+    $("#hideType").slideToggle();
+  }
+
+  // code when trying to use search bar to search by tags
+  // var elements = document.getElementsByTagName(Studio, Salsa, Disco);
 })

@@ -7,6 +7,8 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+
 .v1 h1 {
   color: #CE0C7E;
   font-family: Roboto Condensed;
@@ -74,11 +76,11 @@ body {
   color: #050C4A;
   font-family: Monoton;
   font-size: 1.7rem;
-  line-height: 2.5rem;
+  line-height: 2.4rem;
   letter-spacing: .4rem;
   text-align: left;
   text-transform: uppercase;
-  margin-top: 18%;
+  margin-top: 13%;
   margin-bottom: 0px;
   padding: 10px;
   letter-spacing: 1.2;
@@ -92,7 +94,7 @@ body {
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 1.3px;
-  margin-top: 50px;
+  margin-top: 23%;
   margin-bottom: 0px;
   padding-top: 40px;
   padding-left: 5%;
@@ -130,7 +132,7 @@ body {
   text-align: left;
   text-transform: capitalize;
   line-height: 2.8rem;
-  margin-top: 0px;
+  margin-top: 4%;
   margin-bottom: 0px;
   padding-left: 20px;
   padding-right: 10px;
@@ -182,14 +184,14 @@ body {
 .v4 h2 {
   color: #050C4A;
   font-family: Comfortaa;
-  font-size: 2.3rem;
+  font-size: 2rem;
   text-align: right;
   text-transform: uppercase;
   line-height: 2.8rem;
-  margin-top: 0px;
+  margin-top: 10%;
   margin-bottom: 0px;
-  padding-left: 10%x;
-  padding-right: 10%;
+  padding-left: 8%x;
+  padding-right: 8%;
   padding-top: 44%;
   letter-spacing: 1.2;
 }
@@ -286,17 +288,11 @@ h5 {
 
 img {
   width: 100%;
+  max-width: 100%;
   height: 100%;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-
-/* ask Kareem
-.image {
-  position: relative;
-  width: 100%;
-  height: 100%;
-} */
 
 .ontop {
   width: 100%;
@@ -311,34 +307,38 @@ img {
   padding: 0px;
 }
 
+.hub-card {
+  height: 460px;
+}
+
 .v1.hub-card  {
   position: relative;
-  width: 31.5%;
-  height: 430px;
+  /* width: 31.5%; */
+  /* height: 430px; */
   margin-bottom: 25px;
   text-align: center;
 }
 
 .v2.hub-card {
   position: relative;
-  width: 31.5%;
-  height: 430px;
+  /* width: 31.5%; */
+  /* height: 430px; */
   margin-bottom: 25px;
   text-align: center;
 }
 
 .v3.hub-card {
   position: relative;
-  width: 31.5%;
-  height: 430px;
+  /* width: 31.5%; */
+  /* height: 430px; */
   margin-bottom: 25px;
   text-align: center;
 }
 
 .v4.hub-card {
   position: relative;
-  width: 31.5%;
-  height: 430px;
+  /* width: 31.5%; */
+  /* height: 430px; */
   margin-bottom: 25px;
   text-align: center;
 }
@@ -386,12 +386,12 @@ img {
   text-decoration: none;
 }
 
-.featured a:hover {
-  color: #0065B6;
+a:hover {
+  color: #CE0C7E;
 }
 
-.featured a:active {
-  color: #0065B6;
+.featured a.active, .type a.active, .city a.active {
+  color: #CE0C7E;
 }
 
 .city {
@@ -414,9 +414,6 @@ img {
   color: #CE0C7E;
 }
 
-.city a:active {
-  color: #CE0C7E;
-}
 
 /* Customize the label (the container) */
 .checkbox-container {
@@ -462,14 +459,14 @@ img {
   background-color: #fff;
 }
 
-/* When the checkbox is checked, add a blue background */
+/* When the checkbox is checked, add a pink border */
 .checkbox-container input:checked ~ .checkmark {
-  background-color: #CE0C7E;
+  background-color: #fff;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
-  /* content: ""; */
+  content: "";
   position: absolute;
   display: none;
 }
@@ -481,12 +478,12 @@ img {
 
 /* Style the checkmark/indicator */
 .checkbox-container .checkmark:after {
-  left: 5px;
-  top: 5px;
-  width: 5px;
-  height: 5px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
+  left: 6px;
+  top: 3px;
+  width: 2px;
+  height: 6px;
+  border: solid;
+  border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -509,11 +506,7 @@ img {
 }
 
 .type a:hover {
-  color: #F6A300;
-}
-
-.type a:active {
-  color: #F6A300;
+  color: #CE0C7E;
 }
 
 .search {
@@ -567,7 +560,7 @@ button {
 } */
 
 /* Shutter Vertical */
-.hvr-bounce-to-bottom-blue {
+.hvr-bounce-to-bottom-4 {
 display: inline-block;
 vertical-align: middle;
 -webkit-transform: perspective(1px) translateZ(0);
@@ -580,7 +573,7 @@ transition-property: color;
 transition-duration: 0.5s;
 }
 
-.hvr-bounce-to-bottom-red {
+.hvr-bounce-to-bottom-3 {
 display: inline-block;
 vertical-align: middle;
 -webkit-transform: perspective(1px) translateZ(0);
@@ -593,7 +586,7 @@ transition-property: color;
 transition-duration: 0.5s;
 }
 
-.hvr-bounce-to-bottom-pink {
+.hvr-bounce-to-bottom-2 {
 display: inline-block;
 vertical-align: middle;
 -webkit-transform: perspective(1px) translateZ(0);
@@ -606,7 +599,7 @@ transition-property: color;
 transition-duration: 0.5s;
 }
 
-.hvr-bounce-to-bottom-green {
+.hvr-bounce-to-bottom-1 {
 display: inline-block;
 vertical-align: middle;
 -webkit-transform: perspective(1px) translateZ(0);
@@ -619,7 +612,7 @@ transition-property: color;
 transition-duration: 0.5s;
 }
 
-.hvr-bounce-to-bottom-blue:before {
+.hvr-bounce-to-bottom-4:before {
 content: "";
 position: absolute;
 z-index: 15;
@@ -641,7 +634,7 @@ transition-duration: 0.5s;
 transition-timing-function: ease-out;
 }
 
-.hvr-bounce-to-bottom-red:before {
+.hvr-bounce-to-bottom-3:before {
 content: "";
 position: absolute;
 z-index: 15;
@@ -663,7 +656,7 @@ transition-duration: 0.5s;
 transition-timing-function: ease-out;
 }
 
-.hvr-bounce-to-bottom-pink:before {
+.hvr-bounce-to-bottom-2:before {
 content: "";
 position: absolute;
 z-index: 15;
@@ -685,7 +678,7 @@ transition-duration: 0.5s;
 transition-timing-function: ease-out;
 }
 
-.hvr-bounce-to-bottom-green:before {
+.hvr-bounce-to-bottom-1:before {
 content: "";
 position: absolute;
 z-index: 10;
@@ -707,44 +700,44 @@ transition-duration: 0.5s;
 transition-timing-function: ease-out;
 }
 
-.hvr-bounce-to-bottom-blue:hover, .hvr-bounce-to-bottom-blue:focus, .hvr-bounce-to-bottom-blue:active {
+.hvr-bounce-to-bottom-4:hover, .hvr-bounce-to-bottom-4:focus, .hvr-bounce-to-bottom-4:active {
 color: white;
 }
 
-.hvr-bounce-to-bottom-red:hover, .hvr-bounce-to-bottom-red:focus, .hvr-bounce-to-bottom-red:active {
+.hvr-bounce-to-bottom-3:hover, .hvr-bounce-to-bottom-3:focus, .hvr-bounce-to-bottom-3:active {
 color: white;
 }
 
-.hvr-bounce-to-bottom-pink:hover, .hvr-bounce-to-bottom-pink:focus, .hvr-bounce-to-bottom-pink:active {
+.hvr-bounce-to-bottom-2:hover, .hvr-bounce-to-bottom-2:focus, .hvr-bounce-to-bottom-2:active {
 color: white;
 }
 
-.hvr-bounce-to-bottom-green:hover, .hvr-bounce-to-bottom-green:focus, .hvr-bounce-to-bottom-green:active {
+.hvr-bounce-to-bottom-1:hover, .hvr-bounce-to-bottom-1:focus, .hvr-bounce-to-bottom-1:active {
 color: white;
 }
 
-.hvr-bounce-to-bottom-blue:hover:before, .hvr-bounce-to-bottom-blue:focus:before, .hvr-bounce-to-bottom-blue:active:before {
+.hvr-bounce-to-bottom-4:hover:before, .hvr-bounce-to-bottom-4:focus:before, .hvr-bounce-to-bottom-4:active:before {
 -webkit-transform: scaleY(1);
 transform: scaleY(1);
 -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-.hvr-bounce-to-bottom-red:hover:before, .hvr-bounce-to-bottom-red:focus:before, .hvr-bounce-to-bottom-red:active:before {
+.hvr-bounce-to-bottom-3:hover:before, .hvr-bounce-to-bottom-3:focus:before, .hvr-bounce-to-bottom-3:active:before {
 -webkit-transform: scaleY(1);
 transform: scaleY(1);
 -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-.hvr-bounce-to-bottom-pink:hover:before, .hvr-bounce-to-bottom-pink:focus:before, .hvr-bounce-to-bottom-pink:active:before {
+.hvr-bounce-to-bottom-2:hover:before, .hvr-bounce-to-bottom-2:focus:before, .hvr-bounce-to-bottom-2:active:before {
 -webkit-transform: scaleY(1);
 transform: scaleY(1);
 -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-.hvr-bounce-to-bottom-green:hover:before, .hvr-bounce-to-bottom-green:focus:before, .hvr-bounce-to-bottom-green:active:before {
+.hvr-bounce-to-bottom-1:hover:before, .hvr-bounce-to-bottom-1:focus:before, .hvr-bounce-to-bottom-1:active:before {
 -webkit-transform: scaleY(1);
 transform: scaleY(1);
 -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
