@@ -14,8 +14,9 @@ $(function () {
     console.log(error)
   })
 
-  $('#hideCity').hide()
-  $('#hideType').hide()
+  // Hiding the show/hide js for now
+  // $('#hideCity').hide()
+  // $('#hideType').hide()
 
   // Add click event to each link
   // using special jquery object $(this)
@@ -147,28 +148,28 @@ $(function () {
         </div>
       </div>`)
   }
-
-  // Use jQuery to hide all of the
-  // answers when the application first
-  // loads
-
-  $('#cityActive').click(showHideCity)
-  $('#typeActive').click(showHideType)
-
-  function showHideCity () {
-    // print out message to ensure
-    // function "does something" when
-    // #answer1 element is clicked
-    console.log('calling showHideCity')
-
-    // show the #answer1 element using .show()
-    // $("#answer1").show()
-
-    // slide toggle #answer1 using .slideToggle()
-    // this will open and close the #answer1 element
-    // using a slide animation
-    $('#hideCity').slideToggle()
-  }
+  // Hiding the show/hide js for now
+  // // Use jQuery to hide all of the
+  // // answers when the application first
+  // // loads
+  //
+  // $('#cityActive').click(showHideCity)
+  // $('#typeActive').click(showHideType)
+  //
+  // function showHideCity () {
+  //   // print out message to ensure
+  //   // function "does something" when
+  //   // #answer1 element is clicked
+  //   console.log('calling showHideCity')
+  //
+  //   // show the #answer1 element using .show()
+  //   // $("#answer1").show()
+  //
+  //   // slide toggle #answer1 using .slideToggle()
+  //   // this will open and close the #answer1 element
+  //   // using a slide animation
+  //   $('#hideCity').slideToggle()
+  // }
 
   function showHideType () {
     $('#hideType').slideToggle()
