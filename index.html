@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Lobster|Monoton|Righteous|Roboto+Condensed:300,300i,400,400i,700,700i|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
+
   <body>
     <div class="flex-main-container">
       <div class="left-nav-container">
@@ -27,15 +28,27 @@
         <div class="nav-container hiding">
           <div class="menu-container">
 
+            <button type="button" data-filter=".featuredEvent">Featured</button>
             <div class="featured">
-              <a href="#" id="featured">+  Featured</a>
+              <a href="#" id="featuredActive">+  Featured</a>
+
+              <div id="hideFeatured">
+                <div  data-filter-group>
+                  <label class="checkbox-container">Show Featured
+                    <input type="checkbox" value=".featuredEvent">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+              </div>
             </div><!--end of featured-->
 
             <div  class="city">
               <a id="cityActive" href="#">+  Borough</a>
 
               <div id="hideCity">
-                <form action="#">
+
+                <!-- <form action="#"> -->
+                <div class="data-filter-group">
                   <label class="checkbox-container">Bronx
                     <input type="checkbox">
                     <span class="checkmark"></span>
@@ -60,7 +73,8 @@
                     <input type="checkbox">
                     <span class="checkmark"></span>
                   </label>
-                </form>
+                </div>
+                <!-- </form> -->
               </div><!--end of answer1-->
             </div><!--end of city-->
 
@@ -69,17 +83,22 @@
               <div id="hideType">
               <div class="search">
 
-                <form action="#">
+                <!-- <form action="#"> -->
+                <!-- <button type="button" data-filter="all">All</button>
+                <button type="button" data-filter=".studio">Studio</button> -->
+
+                <div data-filter-group>
                   <label class="checkbox-container">Event
-                    <input type="checkbox">
+                    <input type="checkbox" value=".event">
                     <span class="checkmark"></span>
                   </label>
 
                   <label class="checkbox-container">Studio
-                    <input type="checkbox">
+                    <input type="checkbox" value=".studio">
                     <span class="checkmark"></span>
                   </label>
-                </form>
+                </div>
+                <!-- </form> -->
 
                 <!-- <form action="#" method="get">
                   <input type="text" placeholder="Search by Type">
@@ -102,6 +121,8 @@
     </div> <!--end of flex-main-container -->
 
     <script src="js/jquery.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/mixitup-multifilter.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
